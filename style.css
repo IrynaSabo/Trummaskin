@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(220, 241, 234);
+}
+header{
+    margin-top:60px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 2.7em;
+    font-style: initial;
+}
+.flex-container{
+    margin-top: 100px;
+    margin-left: 470px;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    
+}
+.flex-container > button{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(3, 63, 3);
+    margin: 5px;
+}
+.flex-container>button:hover{
+    background-color: lightcoral;
+}
